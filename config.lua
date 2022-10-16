@@ -7,14 +7,14 @@ Config = {
 	BlipNamer = false, -- Enable to Name Blips different things, disable if you already have too many blips as this will group them together
 	Pedspawn = true, -- Do you want to spawn peds for main locations?
 	img = "qs-inventory/html/images/", -- Set this to your inventory
-	JimMenu = true, -- If using updated qb-menu icons, set this true
+	JimMenu = false, -- If using updated qb-menu icons, set this true
 	JobRole = nil, -- Whats the job role you want to use this? "nil" for none
 	EnableOpeningHours = true, -- Enable opening hours? If disabled you can always open the pawnshop.
 	OpenHour = 9, -- From what hour should the pawnshop be open?
 	CloseHour = 21, -- From what hour should the pawnshop be closed?
 	PayAtDoor = nil, -- Set to nil stop turn this off, set to a number to enable
 
-	Minigame = "qb-skillbar", -- Enable minigame when searching. qb-skillbar/qb-lock/ps-ui
+	Minigame = "ps-ui", -- Enable minigame when searching. qb-skillbar/qb-lock/ps-ui
 
 	OutsideTele = vector4(746.83, -1399.66, 26.6, 230.732),
 	InsideTele = vector4(993.16, -3097.61, -39.90, 82.95),
