@@ -86,8 +86,8 @@ CreateThread(function()
 	for i = 1, #Config.Locations["Trade"] do
 		Targets["Trade"..i] =
 			exports['qb-target']:AddCircleZone("Trade"..i, Config.Locations["Trade"][i].coords.xyz, 1.1, { name="Trade"..i, debugPoly=Config.Debug, useZ=true, },
-				{ options = { { event = "jim-recycle:Trade:Menu", icon = "fas fa-box", label = Loc[Config.Lan].target["trade"]  }, },
-				distance = 1.5 })
+			{ options = { { event = "inventory:client:craftTarget", icon = "fas fa-box", label = Loc[Config.Lan].target["trade"], name = "material"  }, },
+			distance = 1.5 })
 	end
 	--Sell Materials
 	for i = 1, #Config.Locations["Recycle"] do
